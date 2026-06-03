@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tran Phuong Anh - Portfolio</title>
+    <meta name="description" content="Portfolio of Tran Phuong Anh - Second-year International Economics student at Foreign Trade University (FTU). Passionate about data analytics, strategic problem-solving, and business intelligence.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Pastel Cursor Trail -->
+    <div class="cursor-trail" id="cursor-trail"></div>
+
+    <!-- Background Overlay -->
+    <div class="bg-wrapper">
+        <img src="background.avif" alt="Background" class="bg-image">
+        <div class="bg-overlay"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">TPA.</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#activities" class="nav-link">Activities</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-card fade-in">
+                    <div class="avatar-container">
+                        <div class="avatar-ring"></div>
+                        <img src="avatar.jpg" alt="Tran Phuong Anh" class="avatar-img">
+                    </div>
+                    <div class="hero-info">
+                        <h1 class="hero-title">Tran Phuong Anh</h1>
+                        <h2 class="hero-subtitle">
+                            <span class="typewriter" id="typewriter" data-words='["International Economics Student at FTU", "Data Analytics Enthusiast", "Dynamic Event Organizer", "Strategic Problem Solver"]'></span>
+                            <span class="cursor">|</span>
+                        </h2>
+                        <p class="hero-tagline">
+                            Eager to transform data into meaningful economic and business insights.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#about" class="btn btn-primary">Discover More</a>
+                            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>Scroll Down</span>
+            </div>
+        </section>
+
+        <!-- About & Education Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title fade-in">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-card bio-card fade-in">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                        </div>
+                        <h3>Personal Summary</h3>
+                        <p>
+                            A second-year International Economics student at Foreign Trade University (FTU) with a strong interest in data analytics, strategic problem-solving, and business intelligence.
+                        </p>
+                        <p>
+                            Eager to challenge myself in competitive, data-driven environments, strengthen analytical skills, and gain practical experience in transforming data into meaningful economic and business insights.
+                        </p>
+                    </div>
+
+                    <div class="about-card education-card fade-in">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path></svg>
+                        </div>
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <div class="edu-header">
+                                <h4>Foreign Trade University (FTU)</h4>
+                                <span class="badge badge-date">2024 - 2028 (Expected)</span>
+                            </div>
+                            <p class="edu-sub">Ha Noi, Viet Nam</p>
+                            <ul class="edu-details">
+                                <li><strong>Major:</strong> International Economics</li>
+                                <li><strong>Current GPA:</strong> 3.35 / 4.0</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <h2 class="section-title fade-in">Skills & Tools</h2>
+                <div class="skills-grid">
+                    <!-- Languages -->
+                    <div class="skills-card fade-in" style="--accent-color: var(--pastel-blue-dark)">
+                        <div class="skills-card-header">
+                            <div class="skill-icon icon-blue">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                            </div>
+                            <h3>Languages</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li>
+                                <div class="skill-info">
+                                    <span>English (C1)</span>
+                                    <span class="skill-val">IELTS 7.0</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span>Vietnamese</span>
+                                    <span class="skill-val">Native</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 100%"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Tech & Tools -->
+                    <div class="skills-card fade-in" style="--accent-color: var(--pastel-pink-dark)">
+                        <div class="skills-card-header">
+                            <div class="skill-icon icon-pink">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                            </div>
+                            <h3>Technical & Tools</h3>
+                        </div>
+                        <div class="tag-container">
+                            <span class="tag-item tag-pink">Microsoft Word</span>
+                            <span class="tag-item tag-pink">Microsoft Excel</span>
+                            <span class="tag-item tag-pink">PowerPoint</span>
+                            <span class="tag-item tag-pink">Canva Design</span>
+                            <span class="tag-item tag-pink">Data Management</span>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="skills-card fade-in" style="--accent-color: var(--pastel-green-dark)">
+                        <div class="skills-card-header">
+                            <div class="skill-icon icon-green">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                            </div>
+                            <h3>Soft Skills</h3>
+                        </div>
+                        <div class="tag-container">
+                            <span class="tag-item tag-green">Critical Thinking</span>
+                            <span class="tag-item tag-green">Research & Analysis</span>
+                            <span class="tag-item tag-green">Presentation</span>
+                            <span class="tag-item tag-green">Process Optimization</span>
+                            <span class="tag-item tag-green">Project Coordination</span>
+                            <span class="tag-item tag-green">Problem Solving</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section experience-section">
+            <div class="container">
+                <h2 class="section-title fade-in">Relevant Experience</h2>
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+                    
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-marker">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Student Event Organizer</h3>
+                                <span class="badge badge-date">FTU & High School Programs</span>
+                            </div>
+                            <p class="timeline-subtitle">Event Planner & Coordinator</p>
+                            <ul class="timeline-details">
+                                <li>
+                                    <div class="bullet-dot"></div>
+                                    <p><strong>Concept Development:</strong> Led the idea development for student-targeted programs, including freshman orientation, military training activities, and academic workshops.</p>
+                                </li>
+                                <li>
+                                    <div class="bullet-dot"></div>
+                                    <p><strong>Coordination & Planning:</strong> Coordinated overall schedules, assigned tasks, and managed student databases to support execution efficiency and participant organization.</p>
+                                </li>
+                                <li>
+                                    <div class="bullet-dot"></div>
+                                    <p><strong>Capability Building:</strong> Developed key competencies in project coordination, data-driven organization, and strategic problem-solving under operational conditions.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Extracurricular Activities Section -->
+        <section id="activities" class="section activities-section">
+            <div class="container">
+                <h2 class="section-title fade-in">Extracurricular Activities</h2>
+                <div class="activities-grid">
+                    
+                    <!-- Activity 1: FTU Youth Union (FYU) -->
+                    <div class="activity-card fade-in">
+                        <div class="activity-img-wrapper">
+                            <img src="fyu.jpg" alt="FTU Youth Union (FYU)" class="activity-img">
+                            <div class="activity-overlay">
+                                <span class="badge badge-role">Member | 2024 - 2025</span>
+                            </div>
+                        </div>
+                        <div class="activity-content">
+                            <h3>FTU Youth Union (FYU)</h3>
+                            <p class="activity-description">
+                                Led a group of 20+ members across campaign activities. Directly built project timelines, allocated tasks, and established diplomatic connections with other debate and academic clubs.
+                            </p>
+                            <p class="activity-description">
+                                Contributed ideas and developed event concepts tailored for university students and incoming freshmen.
+                            </p>
+                            <div class="activity-tags">
+                                <span class="tag-item tag-blue">FTU</span>
+                                <span class="tag-item tag-blue">Event Planning</span>
+                                <span class="tag-item tag-blue">Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Activity 2: The Lorius of CLDC -->
+                    <div class="activity-card fade-in">
+                        <div class="activity-img-wrapper">
+                            <img src="cldc.jpg" alt="The Lorius of CLDC" class="activity-img">
+                            <div class="activity-overlay">
+                                <span class="badge badge-role">Head of PR | 2022 - 2023</span>
+                            </div>
+                        </div>
+                        <div class="activity-content">
+                            <h3>The Lorius of CLDC (High School)</h3>
+                            <p class="activity-description">
+                                Led the Public Relations (PR) department of 15+ members during high school. Designed communication strategies, monitored progress, and delegated design and content-writing tasks.
+                            </p>
+                            <p class="activity-description">
+                                Acted as the main point of contact to connect the debate club with other inter-school clubs, enhancing the club's media presence and reputation.
+                            </p>
+                            <div class="activity-tags">
+                                <span class="tag-item tag-pink">High School</span>
+                                <span class="tag-item tag-pink">Public Relations</span>
+                                <span class="tag-item tag-pink">Communication</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title fade-in">Get In Touch</h2>
+                
+                <div class="contact-grid">
+                    <!-- Info details -->
+                    <div class="contact-info-card fade-in">
+                        <h3>Direct Contact</h3>
+                        <p class="contact-desc">I would love to connect to discuss work opportunities, learning experiences, or joint projects.</p>
+                        
+                        <div class="contact-methods">
+                            <!-- Location -->
+                            <div class="method-item">
+                                <div class="method-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </div>
+                                <div class="method-text">
+                                    <span>Location</span>
+                                    <p>Ha Noi, Viet Nam</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Email -->
+                            <a href="mailto:tranphuonganh262006@gmail.com" class="method-item link-item">
+                                <div class="method-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                </div>
+                                <div class="method-text">
+                                    <span>Email</span>
+                                    <p>tranphuonganh262006@gmail.com</p>
+                                </div>
+                            </a>
+
+                            <!-- Phone -->
+                            <a href="tel:0347089382" class="method-item link-item">
+                                <div class="method-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </div>
+                                <div class="method-text">
+                                    <span>Phone</span>
+                                    <p>0347 089 382</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Message card -->
+                    <div class="contact-form-card fade-in">
+                        <h3>Send a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="form-name">Full Name</label>
+                                    <input type="text" id="form-name" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-email">Email</label>
+                                    <input type="email" id="form-email" placeholder="example@gmail.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <textarea id="form-message" rows="4" placeholder="Type your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                                <span>Send Message</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="send-icon"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            </button>
+                        </form>
+                        <div id="form-feedback" class="form-feedback hidden">
+                            <div class="feedback-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                            </div>
+                            <h4>Sent Successfully!</h4>
+                            <p>Thank you. I will respond to your message as soon as possible.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">&copy; 2026 Tran Phuong Anh. All rights reserved.</p>
+            <p class="credit">Designed with Soft Pastel Aesthetic</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
